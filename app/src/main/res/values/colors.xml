@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qai_bg">#FF0D111A</color>
+    <color name="qai_surface">#FF161C2A</color>
+    <color name="qai_surface_elevated">#FF1F273B</color>
+    <color name="qai_primary">#FF3253DC</color>
+    <color name="qai_primary_light">#FF5E7CE2</color>
+    <color name="qai_accent">#FF00D2B8</color>
+    <color name="qai_text_primary">#FFF3F6FC</color>
+    <color name="qai_text_secondary">#FFA4B0C6</color>
+    <color name="qai_success">#FF22C55E</color>
+    <color name="qai_warning">#FFF59E0B</color>
+    <color name="qai_error">#FFEF4444</color>
+    <color name="qai_divider">#FF2A344D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

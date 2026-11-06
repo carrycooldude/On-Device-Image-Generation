@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qai_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model"
+            android:textColor="@color/qai_text_secondary"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/spinnerModel"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@color/qai_surface_elevated"
+            android:popupBackground="@color/qai_surface_elevated" />
+
+        <EditText
+            android:id="@+id/etPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@color/qai_surface_elevated"
+            android:gravity="top|start"
+            android:hint="Enter a prompt…"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:padding="12dp"
+            android:textColor="@color/qai_text_primary"
+            android:textColorHint="@color/qai_text_secondary" />
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="14dp"
+            android:text="Generate" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:max="100"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/qai_text_secondary"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/ivOutput"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/qai_surface_elevated"
+            android:contentDescription="Generated image"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+</ScrollView>
